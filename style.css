@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+.coreContentLogin{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginContainer{
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+figure .logo{
+    width: fit-content;
+    height: fit-content;
+}
+.logo{
+    margin: 45% auto 15%;
+    width: 50%;
+    height: fit-content;
+}
+.credentials{
+    width: 75%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.credentials input{
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    background:#E8E6E6;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 0 0 9px;
+}
+.placeholderText{
+    position: absolute;
+    font-size: 0.8rem;
+    color: #716E6E;
+    top: 45px;
+    left: 8px;
+}
+.password{
+    top: 105px;
+}
+.socialMedia{
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 2%;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+.socialMedia a{
+    width: 25%;
+}
+button{
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.socialMedia button{
+    width: 100%;
+    height: fit-content;
+}
+.socialMedia button:hover{
+    transform: scale(1.1);
+    border-radius: 100%;
+}
+.socialMedia img{
+    width: 20px;
+}
+.facebook{
+    background: #2051FF;
+}
+.google{
+    background: #8A0000;
+}
+.apple{
+    background: black;
+}
+.extra{
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.extra input{
+    width: 20px;
+    cursor: pointer;
+}
+.entry{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.entry button{
+    width: 40px;
+    height: 40px;
+    margin: 0 0 10px;
+    background-color: #FF002E;
+}
+.entry button:disabled{
+    background-color: #ff002f48;
+    cursor: auto;
+}
+.entry p{
+    font-size: 0.9rem;
+}
+.imageContainer{
+    width: 75%;
+    overflow: hidden;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+@media (max-width: 1000px) {
+    .loginContainer, .imageContainer{
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    .imageContainer{
+        display: none;
+    }
+    .loginContainer{
+        width: 100%;
+    }
+}
