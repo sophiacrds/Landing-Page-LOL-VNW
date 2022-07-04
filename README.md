@@ -8,5 +8,6 @@ Para aprofundamento dos conhecimentos adquiridos em javascript, foi implementado
 ## PREVIEW
 
 <div align="center">
-
+  <img src="https://user-images.githubusercontent.com/44093225/177226391-e66600f8-d3f9-43ff-884f-cd771fdb6121.gif">
+  <img src="https://user-images.githubusercontent.com/44093225/177226511-8abdf076-239b-4c35-9b8e-e8eb1a737ac4.gif">
 </div>
